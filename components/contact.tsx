@@ -14,7 +14,7 @@ const Contact = () => {
           <Separator className="h-[3px]" />
         </div>
       </div>
-      <div className="grid gap-10 max-w-[95vw] w-screen m-auto md:grid-cols-2 place-content-center place-items-center min-h-screen px-4 md:px-16 ">
+      <div className="grid gap-10 max-w-[95vw] w-screen m-auto md:grid-cols-2 place-content-center place-items-center  px-4 md:px-16 ">
         <div>
           <Image
             src={"/contact.webp"}
