@@ -1,19 +1,37 @@
-import { TypeLinkNav } from '@/lib/type';
+import { TypeLinkNav } from "@/lib/type";
 
 export const linkNav: TypeLinkNav[] = [
   {
-    name: 'Home',
+    name: "Home",
   },
   {
-    name: 'Services',
+    name: "Services",
   },
   {
-    name: 'Customers',
+    name: "Customers",
   },
   {
-    name: 'Teams',
+    name: "Teams",
   },
   {
-    name: 'Contact',
+    name: "Contact",
+  },
+];
+
+export const linkNavId: TypeLinkNav[] = [
+  {
+    name: "Beranda",
+  },
+  {
+    name: "Pelayanan",
+  },
+  {
+    name: "Pelanggan",
+  },
+  {
+    name: "Tim",
+  },
+  {
+    name: "Kontak",
   },
 ];
